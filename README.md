@@ -16,30 +16,42 @@
 
 # GoLocal - Event Planning App 🚀
 
-An event planning app functioning as a social platform. 
+An event planning and participation app functioning as a social platform. 
 
 ## Features 🌟
 
-1. **User Registration and Login** 🔐  
+1. **User Registration and Login** 
    A secure login system allowing users to create accounts, manage profiles, and sync with accounts from other social platforms.
 
-2. **Event Creation and Management** 📅🎉  
+2. **Event Creation and Management** 
    Users can create events, add details, set dates, times, locations.
 
-3. **Participant Interaction** 💬👥  
+3. **Voting Creation and Participation** 
+
+4. **Participant Interaction** 
    Comments, reactions, the ability to message other participants, and create discussion groups related to a specific event.
 
-4. **Notifications** 📲⏰  
+5. **Notifications** 
    Users receive notifications about upcoming events, invites to new events, and reminders about upcoming meetings.
 
-5. **Event Personalization** 🎨✨  
+6. **Event Personalization** 
    Options to customize event appearance, such as images, backgrounds, colors, and styles, tailored to the event's theme.
 
-6. **Collaborative Event Organization** 🤝👩‍💻  
+7. **Collaborative Event Organization** 
    Allowing event organizers to add co-organizers who can collaborate in creating and managing the event.
 
-7. **Recommendation System** 💡🔍  
-   The app can suggest events based on user preferences, past attendance, and trending events.
+8. **Recommendation System**
+   The app can suggest events based on user preferences, past attendance, and trending/promoted events.
 
-8. **Secure Data Management** 🔒🛡️  
+9. **Secure Data Management** 
     Protecting user data through encryption and other privacy measures.
+
+10. **Seeding**
+    A lot of data can be generated to populate the app and to run tests.
+
+11. **Containerization**
+   Backend can be run as a Docker container.
+
+## My personal contribution
+
+We worked in a team of 3 people. I ([lmProgramming](https://github.com/lmProgramming)) was mainly responsible for the Voting System and Recommendation System, on both backend (Golang) and frontend (Flutter). Thanks to test integration, both modules work pretty well. This was the biggest project I co-created in a team for University so far. Both backend and frontend have distinct architectures, thanks to interfaces we were able to easily create mocks, and we usem some design patterns. For details about contributions, visit [Contributors](https://github.com/lukaszfabia/GoLocal/graphs/contributors).
